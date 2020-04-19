@@ -11,9 +11,10 @@ const StripeCheckoutButton = ({ price }) => {
         console.log(token);
         alert('Payment Successfull')
     }
+    
     return(
 
-        <StripeCheckoutButton 
+        <StripeCheckout 
             label = 'Pay Now'
             name = 'CRWN Clothing Ltd.'
             billingAddress
